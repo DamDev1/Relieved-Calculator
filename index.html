@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Relieved Calculator</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="topNav">
+                <ul class="liContainer">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>            
+                </ul>
+    
+                <div class="socalList">
+                    <a href="https://web.facebook.com/profile.php?id=100081160122938"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCuNEyT5OgH85fPAGcaWAPNg"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com/Samuel_Dev_"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.pinterest.com/damDev001/"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+
+            <div class="logo">
+                <h1>Relieved <span>Calculator</span></h1>
+            </div>
+
+            <nav>
+                <div class="logo">
+                    <h1>Relieved <span>Calculator</span></h1>
+                </div>
+                <ul class="listContainer active">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Time</a></li>
+                    <li><a href="#">Love</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="./Others/other.html">Others</a></li>
+                </ul>
+
+                <div class="searchContainer">
+                    <input type="text" placeholder="Search Here">
+                    <i class="fa-solid fa-search" id="search"></i>
+                </div>
+
+                <div class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <section class="main">
+            <div class="about">
+                <h1>Relieved Calculator</h1>
+                <p>Relieved Calculator is dedicated to providing the best possible web tools for free, such as calculators, tests, quizzes and converters.</p>
+                <p>Our range of topics covers everything from health and medical algorithms to finance, math, personality and other sciences. We have over 1,000 solutions for a variety of interests like love, age, calorie, mortgage, loan, savings, time, generation, pregnancy and BMI. </p>
+                <p>Our team of specialists in various fields and our web developers are constantly working on improving our online calculators and adding new forms. Ultimately we want to be the go-to source for all calculation needs by providing an enjoyable user experience with fast web forms and a mobile-friendly interface.</p>
+            </div>
+
+            <div class="generateQuotesContainer">
+                <h1>Generate A Quotes</h1>
+                <p class="quoteGenerated"></p>
+                
+                <span class="author">hello</span>
+                <button onclick="getQuotes()">Generate</button>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="columOne">
+                <div class="health" id="category">
+                    <h2>HEALTH</h2>
+                    <ul>
+                        <li><a href="#">Body Mass Index "BMI"</a></li>
+                        <li><a href="#">Wilks Calculator</a></li>
+                        <li><a href="#">Downes Score Calculator</a></li>
+                        <li><a href="#">Water Calculator</a></li>
+                        <li><a href="#">Quick Weight Loss Calculator</a></li>
+                    </ul>
+                </div>
+    
+                <div class="time" id="category">
+                    <h2>TIME</h2>
+                    <ul>
+                        <li><a href="#">Body Mass Index "BMI"</a></li>
+                        <li><a href="#">Wilks Calculator</a></li>
+                        <li><a href="#">Downes Score Calculator</a></li>
+                        <li><a href="#">Water Calculator</a></li>
+                        <li><a href="#">Quick Weight Loss Calculator</a></li>
+                    </ul>
+                </div>
+    
+                <div class="love" id="category">
+                    <h2>LOVE</h2>
+                    <ul>
+                        <li><a href="#">Body Mass Index "BMI"</a></li>
+                        <li><a href="#">Wilks Calculator</a></li>
+                        <li><a href="#">Downes Score Calculator</a></li>
+                        <li><a href="#">Water Calculator</a></li>
+                        <li><a href="#">Quick Weight Loss Calculator</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="columTwo">
+                <div class="finance" id="category">
+                    <h2>FINANCE</h2>
+                    <ul>
+                        <li><a href="#">Body Mass Index "BMI"</a></li>
+                        <li><a href="#">Wilks Calculator</a></li>
+                        <li><a href="#">Downes Score Calculator</a></li>
+                        <li><a href="#">Water Calculator</a></li>
+                        <li><a href="#">Quick Weight Loss Calculator</a></li>
+                    </ul>
+                </div>
+    
+                <div class="lifestyle" id="category">
+                    <h2>LIFESTYLE</h2>
+                    <ul>
+                        <li><a href="#">Body Mass Index "BMI"</a></li>
+                        <li><a href="#">Wilks Calculator</a></li>
+                        <li><a href="#">Downes Score Calculator</a></li>
+                        <li><a href="#">Water Calculator</a></li>
+                        <li><a href="#">Quick Weight Loss Calculator</a></li>
+                    </ul>
+                </div>
+    
+                <div class="other" id="category">
+                    <h2>OTHER</h2>
+                    <ul>
+                        <li><a href="#">Body Mass Index "BMI"</a></li>
+                        <li><a href="#">Wilks Calculator</a></li>
+                        <li><a href="#">Downes Score Calculator</a></li>
+                        <li><a href="#">Water Calculator</a></li>
+                        <li><a href="#">Quick Weight Loss Calculator</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
