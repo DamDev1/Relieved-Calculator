@@ -291,4 +291,20 @@
     .container .main .about {
       width: 100%;
     }
-  }/*# sourceMappingURL=other.css.map */
+
+    .container .main .flameCalculator .flameInputContainer .frameResult{
+      width: 95%;
+      background: #f1166e;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      top: 0;
+      display: none;
+    } 
+
+    .container .main .aboutFlame{
+      margin-top: 1.5rem;
+      width: 100%;
+    }
+
+  }
