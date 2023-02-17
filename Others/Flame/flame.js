@@ -42,7 +42,7 @@ calculate.addEventListener("click", () =>{
                 if(arr.indexOf( test ) > -1){
                     discarded.push( test );
                     continue;
-                }else if( discarded.indexOf( test ) == -1 ) {
+                }else if( discarded.indexOf( test )) {
                     good.push( test );
                 }
             }
@@ -52,9 +52,7 @@ calculate.addEventListener("click", () =>{
         x = removeDuplicate( Myarr );
         console.log( x );
 
-        const f = [1,7,13,19,25]
-
-        if(x.length === f){
+        if(x.length === 1 || x.length === 7 || x.length ===13 || x.length ===19 || x.length ===25){
             document.querySelector(".flame").innerHTML = "FRIENDSHIP"
             document.querySelector(".frameResult").style.display = "block"
             document.querySelector(".flameInput").style.display = "none"
@@ -79,7 +77,7 @@ calculate.addEventListener("click", () =>{
             document.querySelector(".frameResult").style.display = "block"
             document.querySelector(".flameInput").style.display = "none"
 
-        }else if(x.length === 7|| x.length === 12|| x.length === 18|| x.length === 24|| x.length === 30){    
+        }else if(x.length === 6|| x.length === 12|| x.length === 18|| x.length === 24|| x.length === 30){    
             document.querySelector(".flame").innerHTML = "Siblings"
             document.querySelector(".frameResult").style.display = "block"
             document.querySelector(".flameInput").style.display = "none"
